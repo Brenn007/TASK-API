@@ -2,28 +2,16 @@
 
 ## ⚡ Installation en 3 Étapes
 
-### 1️⃣ Installer les Dépendances
 
-**Si vous avez des erreurs "Cannot find module"**
+## 📦 Cloner le Projet
 
-#### Linux/Mac :
+### 1️⃣ Cloner le Dépôt Git
 ```bash
-chmod +x fix-dependencies.sh
-./fix-dependencies.sh
-```
+# Cloner le repository
+git clone https://github.com/Brenn007/TASK-API.git
 
-#### Windows PowerShell :
-```powershell
-.\fix-dependencies.ps1
-```
+cd playlist-api
 
-#### Ou manuellement :
-```bash
-# Nettoyer et réinstaller
-rm -rf node_modules package-lock.json
-npm install
-npm install --save-dev @types/jest @types/node @types/bcrypt @types/passport-jwt @types/passport-local
-```
 
 ### 2️⃣ Lancer l'Application
 
